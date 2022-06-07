@@ -4,17 +4,35 @@ h1 {
   text-shadow: 5px 5px 6px black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
-  background-color: grey;
+  background-color: #778184;
+  text-align: center;
   
 }
-h2, h3 {
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;
+
+.center{
+  margin-top: 1rem;
   align-items: center;
   justify-content: center;
+}
+
+.header{
+  color: red;
+  text-shadow: 5px 5px 6px black;
+  margin-bottom: .5rem;
+  background-color: #4a5051;
+  border-radius: 5px;
+  width: 80%;
+  height: 2.5rem;
+}
+
+h2, h3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
   margin: auto;
+  text-align: center;
 }
 body {
+  background-color: #a9b1be;
   margin: auto;
   padding: auto;
 }
